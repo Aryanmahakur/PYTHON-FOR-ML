@@ -11,7 +11,7 @@ plt.scatter(
     hours_studied,      # X values
     marks,              # Y values
     color="red",        # Point color
-    marker="o",         # Point shape
+    marker="0",         # Point shape
     s=100,              # Point size
     label="Students"    # Legend name
 )
@@ -29,14 +29,6 @@ plt.grid(True)
 
 # Legend
 plt.legend()
-
-# Axis Limits (Optional)
-plt.xlim(0, 9)
-plt.ylim(0, 100)
-
-# Tick Values (Optional)
-plt.xticks(range(0, 10))
-plt.yticks(range(0, 101, 10))
 
 # Show Plot
 plt.show()
