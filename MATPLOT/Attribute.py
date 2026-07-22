@@ -11,7 +11,7 @@ y = [100, 200, 150, 300, 250]
 plt.figure(figsize=(8, 5), dpi=100)
 
 # Plot
-plt.plot(a
+plt.plot(
     x,
     y,
     label="Sales",
