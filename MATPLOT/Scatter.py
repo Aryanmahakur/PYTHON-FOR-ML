@@ -11,7 +11,7 @@ plt.scatter(
     hours_studied,      # X values
     marks,              # Y values
     color="red",        # Point color
-    marker="0",         # Point shape
+    marker="o",         # Point shape
     s=100,              # Point size
     label="Students"    # Legend name
 )

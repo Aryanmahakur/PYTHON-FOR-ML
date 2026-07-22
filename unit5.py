@@ -46,7 +46,7 @@ print(text.title())         # Hello World
 print(text.capitalize())    # Hello world
 print(text.swapcase())      # HELLO WORLD
 
-print(text.replace("world", "Python"))  # hello Python
+print(text.replace("hello world", "Python"))  # hello Python
 print(text.count("o"))                  # 2
 print(text.find("world"))               # 6
 print(text.index("world"))              # 6
